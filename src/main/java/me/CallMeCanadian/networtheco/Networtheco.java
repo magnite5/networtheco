@@ -5,10 +5,7 @@ import me.CallMeCanadian.networtheco.Commands.NwCommand;
 import me.CallMeCanadian.networtheco.Commands.NwGuiCommand;
 import me.CallMeCanadian.networtheco.Listeners.GuiListeners;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
-import net.luckperms.api.LuckPerms;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,7 +15,6 @@ public final class Networtheco extends JavaPlugin {
 
 //    private LuckPerms luckPerms;
 
-    public final Map<UUID, Integer> killCount = new HashMap<>();
     public final Map<UUID, Integer> nwCount = new HashMap<>();
     private FileConfiguration config;
 
