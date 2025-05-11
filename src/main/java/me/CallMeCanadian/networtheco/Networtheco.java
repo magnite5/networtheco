@@ -16,7 +16,7 @@ import java.util.UUID;
 
 public final class Networtheco extends JavaPlugin {
 
-    private LuckPerms luckPerms;
+//    private LuckPerms luckPerms;
 
     public final Map<UUID, Integer> killCount = new HashMap<>();
     public final Map<UUID, Integer> nwCount = new HashMap<>();
@@ -31,7 +31,7 @@ public final class Networtheco extends JavaPlugin {
         getCommand("nw").setExecutor(new NwCommand());
         getCommand("kills").setExecutor(new KillsCommand());
 
-        this.luckPerms = getServer().getServicesManager().load(LuckPerms.class);
+//        this.luckPerms = getServer().getServicesManager().load(LuckPerms.class);
     }
 
     @Override
