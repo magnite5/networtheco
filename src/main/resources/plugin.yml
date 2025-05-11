@@ -1,0 +1,13 @@
+name: networtheco
+version: '1.0-SNAPSHOT'
+main: me.CallMeCanadian.networtheco.Networtheco
+api-version: '1.21'
+commands:
+    nwgui:
+        description: "Cool gui for converting between forms of net worth"
+    nw:
+        aliases: ["networth", "worth"]
+        description: "Allows viewing and modification of Net Worth"
+        usage: "/nw <operation: ?"
+    kills:
+        description: "Shows you your kills"
